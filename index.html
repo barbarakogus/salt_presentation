@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/league.css">
+		<link rel="stylesheet" href="dist/personalized.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,9 +17,53 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-				<section>Slide 3</section>
+				<section class="slide1">
+					<h2 class="titulo" style="display: flex;">Bárbara Kógus</h2>
+					<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+						<div style="background-color: #808080; height: 180px; width: 300px; border-radius: 25px; box-shadow: 7px 7px 13px #A9A9A9;">
+							<nav style="display: flex; flex-direction: column; padding: 0px; ">
+								<ul style="list-style: none; padding: 15px;">
+									<li>
+										<a style="display: flex; flex-direction: row; align-items: center; text-decoration-line: underline; color: #000000;" href="https://github.com/barbarakogus">
+											<img style="height: 30px; width: 30px; padding-right: 10px;" src="imagens/logotipo-do-github.png"> 
+											GitHub
+										</a>
+									</li>
+									<li>
+										<a style="display: flex; flex-direction: row; align-items: center; text-decoration-line: underline; color: #000000;" href="https://www.linkedin.com/in/barbarakogus/">
+											<img style="height: 30px; width: 30px; padding-right: 10px;" src="imagens/linkedin.png">
+											Linkedin
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div style="display: flex; flex-direction: column; text-align: end ;">
+							<p>Brazilian</p>
+							<p>Stockholm</p>
+							<p>Forest engineering</p>
+						</div>
+					</div>
+				</section>
+				<section class="slide2"> 
+					<h2>JavaScript - Kotlin</h2>
+					<p>Front-end : Android : Node.js : Git : Linux<br>Web perfomance : Web accessibility</p> 
+					<div style="display: flex; flex-direction: row; justify-content: space-around;">
+						<div>
+							<p>Start</p>
+						</div>
+						<div>
+							<p>Html -Css</p>
+						</div>
+						<div>
+							<p>Android</p>
+						</div>
+					</div>
+				</section>
+				<section class="slide3"> 
+					<p>Porque eu mereco ser escolhida</p>
+					<p>Futuro</p>
+				</section>
 			</div>
 		</div>
 
@@ -32,6 +77,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				controls: true,
+				slideNumber: true,
+				touch: true,
+				transition: "none", 
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
