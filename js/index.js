@@ -56,3 +56,27 @@ Reveal.isReady = () => false;
 Reveal.VERSION = VERSION;
 
 export default Reveal;
+
+var btnStart = document.querySelector("#btnStart")
+var btnDogsitter = document.querySelector("#btnDogsitter")
+var btnAndroid = document.querySelector("#btnAndroid")	
+
+
+
+
+
+/*btnStart.addEventListener("click", function(){
+
+
+
+
+
+})
+
+btnDogsitter.addEventListener("click", function(){
+	
+})
+
+btnAndroid.addEventListener("click", function(){
+
+})*/
