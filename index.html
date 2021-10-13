@@ -25,7 +25,7 @@
 									<li>
 										<a style="display: flex; flex-direction: row; align-items: center; text-decoration-line: underline; color: #000000;" href="https://github.com/barbarakogus">
 											<img style="height: 30px; width: 30px; padding-right: 10px;" src="imagens/logotipo-do-github.png"> 
-											GitHub
+											barbarakogus
 										</a>
 									</li>
 									<li>
@@ -44,25 +44,39 @@
 						</div>
 					</div>
 				</section>
-				<section class="slide2"> 
+				<section class="slide2" style="margin: 80px auto; "> 
 					<h2>JavaScript - Kotlin</h2>
-					<p>Front-end - Android - Node.js - Git - Linux<br>Web perfomance - Web accessibility</p> 
-					<div style="display: flex; flex-direction: row; justify-content: space-around; margin-top: 50px;">
+					<p style="margin-top: 20px;">Front-end - Android - Node.js - Git - Linux<br>Web perfomance - Web accessibility</p> 
+					<div style="display: flex; flex-direction: row; justify-content: space-around; margin-top: 70px;">
 						<div>
-							<button style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px;">Start</button>
+							<button onclick="location.href='#open-start'" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px;">Start</button>
 						</div> 
 						
 						<div>
-							<button id="btnDogsitter" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px;">Html -Css</button>
+							<button onclick="location.href='#open-dogsitter'" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px;">Html -Css</button>
 						</div>
 						<div>
-							<button id="btnAndroid" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 13px #C0C0C0; font-size: 18px;">Android</button>
-							<div>
-								<!--<video src="/videos/appleApi.mov"></video>-->
-							</div>
+							<button  onclick="location.href='#open-android'" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 13px #C0C0C0; font-size: 18px;">Android</button>
 						</div>
 					</div>
-  
+					<div id="open-start" class="modal-window">
+						<div style="display: flex; flex-direction: column;">
+							<a href="#/1" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
+						  	<video height="500" autoplay controls src="/videos/appleApi.mov" style="align-self: center;"></video>
+						</div>  
+					</div>
+					<div id="open-dogsitter" class="modal-window">
+						<div style="display: flex; flex-direction: column;">
+							<a href="#/1" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
+						  	<video height="500" autoplay controls src="/videos/appleApi.mov" style="align-self: center;"></video>
+						</div>  
+					</div>
+					<div id="open-android" class="modal-window">
+						<div style="display: flex; flex-direction: column;">
+							<a href="#/1" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
+						  	<video height="500" autoplay controls src="/videos/appleApi.mov" style="align-self: center;"></video>
+						</div>  
+					</div>
 				</section>
 				<section class="slide3"> 
 					<p>Porque eu mereco ser escolhida</p>
