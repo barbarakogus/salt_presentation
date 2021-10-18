@@ -19,7 +19,7 @@
 				<section class="slide1">
 					<h2 class="titulo" style="display: flex;">Bárbara Kógus</h2>
 					<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-						<div style="background-color: #808080; height: 180px; width: 350px; border-radius: 25px; box-shadow: 7px 7px 13px #A9A9A9;">
+						<div style="background-color: #808080; height: 180px; width: 350px; border-radius: 25px; box-shadow: 5px 5px 25px #A9A9A9;">
 							<nav style="display: flex; flex-direction: column; padding: 0px; ">
 								<ul style="list-style: none; padding: 15px; margin-left: 10px;">
 									<li>
@@ -45,24 +45,55 @@
 						</div>
 					</div>
 				</section>
+				<section data-transition="Fade" data-transition-speed="slow">
+					<div style="display: flex; flex-direction: column; align-items: center;">
+						<p style="margin-bottom: 5px;">Assignment</p>
+						<img src="/imagens/training.png" style="margin: 5px;">
+					</div>
+				</section>
+				<section data-transition="Fade" data-transition-speed="slow">
+					<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-around;">
+						<div style="display: flex; flex-direction: column; align-items: flex-start;">
+							<img src="/imagens/training.png" style="margin: 5px; width: 450px; height: 268px; opacity: 0.3;">
+						</div>
+						<div>
+							<p style="margin-bottom: 5px;">Improvement</p>
+							<img src="/imagens/improvement.jpeg" style="margin: 5px; width: 406px; height: 341px;">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div style="display: flex; flex-direction: column;">
+						<div style="display: flex; flex-direction: row; align-items: initial; justify-content: space-around;">
+							<div style="display: flex; flex-direction: column; align-items: flex-start;">
+								<img src="/imagens/training.png" style="margin: 5px; width: 450px; height: 268px; opacity: 0.3;">
+							</div>
+							<div>
+								<img src="/imagens/improvement.jpeg" style="margin: 5px; width: 256px; height: 191px; opacity: 0.3;">
+							</div>
+						</div>
+						<div style="position: absolute; margin: 60px 180px; align-items: center;">
+							<img src="/imagens/curiosity.jpg" style="width: 632px; height: 507px;">
+						</div>
+					</div>
+				</section>
 				<section class="slide2" style="margin: 80px auto; "> 
 					<h2>JavaScript - Kotlin</h2>
 					<p style="margin-top: 20px;">Front-end - Android - Node.js - Git - Linux<br>Web perfomance - Web accessibility</p> 
 					<div style="display: flex; flex-direction: row; justify-content: space-around; margin-top: 70px;">
 						<div>
-							<button onclick="location.href='#open-start'" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px; text-transform: uppercase;">Start</button>
+							<button onclick="location.href='#open-start'" style="width: 150px; padding: 30px; border-radius: 15px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px; text-transform: uppercase;">Start</button>
 						</div> 
-						
 						<div>
-							<button onclick="location.href='#open-dogsitter'" style="width: 170px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px; text-transform: uppercase;">Html -Css</button>
+							<button onclick="location.href='#open-dogsitter'" style="width: 170px; padding: 30px; border-radius: 15px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px; text-transform: uppercase;">Html -Css</button>
 						</div>
 						<div>
-							<button  onclick="location.href='#open-android'" style="width: 150px; padding: 30px; border-radius: 10px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 13px #C0C0C0; font-size: 18px; text-transform: uppercase;">Android</button>
+							<button  onclick="location.href='#open-android'" style="width: 150px; padding: 30px; border-radius: 15px; background-color: #C0C0C0; text-emphasis-color: #000000; box-shadow: 2px 2px 5px #C0C0C0; font-size: 18px; text-transform: uppercase;">Android</button>
 						</div>
 					</div>
 					<div id="open-start" class="modal-window">
 						<div style="display: flex; flex-direction: column; width: 800px;">
-							<a href="#/1" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
+							<a href="#/4" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
 							<div style="display: flex; flex-direction: row; justify-content: space-around; width: 800px;">
 								<video height="400" width="350" autoplay controls src="/videos/cores.mov" style="align-self: center;"></video>
 								<video height="400" width="350" autoplay controls src="/videos/target.mov" style="align-self: center;"></video>  
@@ -71,20 +102,34 @@
 					</div>
 					<div id="open-dogsitter" class="modal-window" >
 						<div style="display: flex; flex-direction: column; width: 700px;">
-							<a href="#/1" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
+							<a href="#/4" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
 						  	<video height="500" autoplay controls src="/videos/dogsitter.mp4" style="align-self: center;"></video>
 						</div>  
 					</div>
 					<div id="open-android" class="modal-window">
 						<div style="display: flex; flex-direction: column;">
-							<a href="#/1" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
+							<a href="#/4" title="Close" class="modal-close" style="color: #000000; align-self: flex-end;">X</a>
 						  	<video height="500" autoplay controls src="/videos/appleApi.mov" style="align-self: center;"></video>
 						</div>  
 					</div>
 				</section>
-				<section class="slide3"> 
-					<p>Porque eu mereco ser escolhida</p>
-					<p>Futuro</p>
+				<section class="slide3">
+					<h2 style="align-self: center;">Why me?</h2>
+					<div style="display: flex; flex-direction: row;">
+						<div style="display: flex; flex-direction: column; align-content: flex-start;">
+							<img src="/imagens/wecando.png" style="width: 312px; height: 440px;">
+							<p style="align-self: flex-start;">Committed - Dedicated - Resilient</p>
+						</div> 
+						<div>
+							<img src="/imagens/react.png" style="width: 70px; height: 70px;">
+							<img src="/imagens/ios.jpg" style="width: 70px; height: 70px;">
+							<img src="/imagens/JS.png" style="width: 70px; height: 70px;">
+							<img src="/imagens/node2.png" style="width: 70px; height: 70px;">
+							<img src="/imagens/postgreSql.png" style="width: 70px; height: 70px;">
+							<img src="/imagens/mongodb.jpg" style="width: 70px; height: 70px;">
+							<img src="/imagens/graphql.png" style="width: 70px; height: 70px;">
+						</div>
+					</div>		
 				</section>
 			</div>
 		</div>
